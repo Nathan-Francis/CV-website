@@ -1,0 +1,751 @@
+<!-- ==========================
+ 
+Name: Nathan Francis
+SUN: 240382935
+Email: 240382935@aston.ac.uk
+Description: Home Page for Nathan Francis' CV
+
+=========================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ==========================
+             Meta & Stylesheets
+        =========================== -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Nathan Francis</title>
+        <link rel="icon" type="image/x-icon" href="Images/Icons/cv_icon.ico">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script defer src="JavaScript/basic.js"></script>
+    </head>
+
+    <body>
+        <div class="home-page">
+            <!-- ==========================
+                Header
+            =========================== -->
+            <header id="main-header">
+                <h1>Nathan Francis EngTech TMIET</h1>
+                <section id="job-title">
+                    <h2>Systems Integration & Test Engineer</h2>
+                </section>
+            </header>
+
+            <!-- ==========================
+                Navigation Bar
+            =========================== -->
+            <nav id="main-nav">
+                <ul>
+                    <li><img
+                            src="Images/Icons/home_icon.png"
+                            alt="Home Icon"
+                            style="width: 20px; height: 20px; vertical-align: top; margin-right: 8px"><a
+                            href="home_page.html">Home</a></li>
+                    <li><img
+                            src="Images/Icons/project_icon.png"
+                            alt="Project Request Icon"
+                            style="width: 22px; height: 22px; vertical-align: top; margin-right: 8px"><a
+                            href="contact_page.html">Project
+                            Request</a></li>
+                    <li><img src="Images/Icons/portfolio_icon.png"
+                            alt="Portfolio Icon"
+                            style="width: 20px; height: 20px; vertical-align: top; margin-right: 8px"><a
+                            href="portfolio_page.html">Portfolio</a></li>
+                    <li><img src="Images/Icons/location_icon.png"
+                            alt="GPS Icon"
+                            style="width: 24px; height: 24px; vertical-align: top; margin-right: 4px;"><a
+                            href="https://www.google.com/maps/place/Newlands+Dr,+Forest+Town,+Mansfield+NG19+0HZ/@53.1597207,-1.142862,17z/data=!3m1!4b1!4m6!3m5!1s0x4879bc5b4f40190b:0x8eba75d41868f672!8m2!3d53.1595108!4d-1.1402583!16s%2Fg%2F1tfssdsw?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">Location</a></li>
+                    <li><img src="Images/Icons/contact_icon.png"
+                            alt="Contact Icon"
+                            style="width: 24px; height: 24px; vertical-align: top; margin-right: 4px; padding-bottom: 2px;"><a
+                            href="mailto:240382935@aston.ac.uk">Send
+                            Email</a></li>
+                    <li><img src="Images/Icons/github_icon.png"
+                            alt="GitHub Logo"
+                            style="width: 24px; height: 24px; vertical-align: top; margin-right: 4px; padding-bottom: 2px;"><a
+                            href="https://www.github.com/Nathan-Francis"
+                            target="_blank">GitHub</a></li>
+                    <li><img src="Images/Icons/linkedin_icon.png"
+                            alt="LinkedIn Logo"
+                            style="width: 24px; height: 24px; vertical-align: top; margin-right: 4px; padding-bottom: 2px;">
+                        <a
+                            href="https://www.linkedin.com/in/nathan-francis"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <hr class="section-separator">
+
+                <!-- ==========================
+                    Professional Overview
+                =========================== -->
+                <section id="professional-overview">
+                    <h2>Professional Overview</h2>
+                    <p>A professional <span style="font-weight:bold">SC Cleared
+                            System Integration and Test Engineer</span>,
+                        studying towards a <span style="font-weight:bold">BSc
+                            Computer Science (Hons)</span>. An enthusiastic work
+                        ethic with a passion for fault diagnosis and root cause
+                        analysis. Experienced working in <span
+                            style="font-weight:bold">Rail, Aerospace and Marine
+                            engineering</span>, working on complex AC and DC
+                        Rolling Stock, Radar and Navigation systems, Control and
+                        Instrumentation systems, and military assets such as the
+                        AH64 Apache and Lynx helicopters, in first line and
+                        depth maintenance.</p>
+                </section>
+
+                <hr class="section-separator">
+
+                <!-- ==========================
+                    Section Buttons
+                =========================== -->
+                <section id="section-buttons">
+                    <h2>Sections</h2>
+                    <p><strong>Tip:</strong> Click the buttons below to <span
+                            style="color:blue; font-weight:bold;">reveal</span>
+                        or <span
+                            style="color:red; font-weight:bold;">hide</span>
+                        sections of the CV.</p>
+
+                    <div class="button-grid">
+                        <button id="reveal-work-experience"
+                            class="reveal-hide-button">Work
+                            Experience</button>
+
+                        <button id="hide-work-experience"
+                            class="reveal-hide-button">Work
+                            Experience</button>
+
+                        <button id="reveal-education"
+                            class="reveal-hide-button">Education</button>
+
+                        <button id="hide-education"
+                            class="reveal-hide-button">Education</button>
+
+                        <button id="reveal-languages"
+                            class="reveal-hide-button">Languages</button>
+
+                        <button id="hide-languages"
+                            class="reveal-hide-button">Languages</button>
+
+                        <button id="reveal-skills"
+                            class="reveal-hide-button">Engineering
+                            Skills</button>
+
+                        <button id="hide-skills"
+                            class="reveal-hide-button">Engineering
+                            Skills</button>
+
+                        <button id="reveal-interests"
+                            class="reveal-hide-button">Interests</button>
+
+                        <button id="hide-interests"
+                            class="reveal-hide-button">Interests</button>
+
+                        <button id="reveal-testimonials"
+                            class="reveal-hide-button">Testimonials</button>
+
+                        <button id="hide-testimonials"
+                            class="reveal-hide-button">Testimonials</button>
+                    </div>
+                </section>
+
+                <hr class="section-separator">
+
+                <!-- ==========================
+                    Work Experience Section
+                =========================== -->
+                <section id="work-experience" style="display: none;">
+                    <h2>Work Experience</h2>
+                    <div class="job-entry">
+                        <div class="job-header">
+                            <span class="job-company">L3Harris</span>
+                            <span class="job-dates">October 2022 -
+                                Present</span>
+                        </div>
+                        <div class="job-title">Integration & Test
+                            Engineer</div>
+                        <div class="job-responsibilities">
+                            <p>
+                                Responsible for authoring the Sub-System
+                                Test
+                                Plan and Sub-System Test Description for
+                                each
+                                individual Sub-System CSCI for the Type
+                                26
+                                Frigate, focusing on C&I and Platform
+                                Management. Creating test scripts and
+                                schedules
+                                to conduct integration testing against
+                                Requirements. Perform requirement
+                                analysis,
+                                design reviews, backlog refinement, HCI
+                                reviews
+                                and signatory of the Integration
+                                Readiness
+                                Review (IRR) approval. Implementation of
+                                modification work packages, installation
+                                and
+                                commissioning of software. Configuration
+                                management of systems.
+                            </p>
+                            <p>
+                                Management of the 2-weekly customer
+                                demonstrations at the end
+                                of each Sprint review. Working with the
+                                System,
+                                Application, Software and Hardware
+                                engineer
+                                teams in an Agile environment to ensure
+                                the
+                                product meets customer expectations.
+                                Good
+                                understanding of the software
+                                development
+                                lifecycle and firm supporter of process
+                                improvement and efficiency.
+                            </p>
+                        </div>
+                        <div class="job-skills">
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>Test Plan Authoring</li>
+                                <li>Test Script Creation</li>
+                                <li>Test Package Estimation</li>
+                                <li>Requirement Analysis</li>
+                                <li>Requirements Traceability</li>
+                                <li>Configuration Management</li>
+                            </ul>
+                        </div>
+                        <div class="job-tools">
+                            <h4>Tools:</h4>
+                            <ul>
+                                <li>Jira</li>
+                                <li>Confluence</li>
+                                <li>Visio</li>
+                                <li>DOORS</li>
+                                <li>IBM Change</li>
+                                <li>Synergy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="experience-separator">
+
+                    <div class="job-entry">
+                        <div class="job-header">
+                            <span class="job-company">Northrop Grumman
+                                Sperry
+                                Marine</span>
+                            <span class="job-dates">March 2022 - October
+                                2022</span>
+                        </div>
+                        <div class="job-title">Systems Test
+                            Engineer</div>
+                        <div class="job-responsibilities">
+                            <p>
+                                Responsible for the verification and
+                                validation
+                                of various navigation and radar systems
+                                designated for large cruise ship and
+                                transportation vessels. Adhering to
+                                agile
+                                methodologies to support the development
+                                of
+                                software throughout the Software
+                                Development
+                                Life Cycle, based on the Agile model.
+                                Involved
+                                in requirements analysis, ensuring
+                                systems are
+                                conforming to British Standard IECs,
+                                IMOs and
+                                IHOs. Conducting system acceptance,
+                                performance,
+                                and regression testing. Experience
+                                writing basic
+                                batch files to facilitate automation.
+                            </p>
+                            <p>
+                                Authoring and compiling technical
+                                reports for
+                                submission to relevant Notified Bodies
+                                to gain a
+                                Wheelmark certification. Writing test
+                                plans,
+                                test cases, acceptance criteria and
+                                performance
+                                data analysis. Experienced with agile
+                                tools such
+                                as Jira, Xray, DOORs and IFS. Ability to
+                                debug
+                                systems collecting watchdog logs,
+                                exceptions,
+                                and sentence transmissions. Defined test
+                                package
+                                estimates, system test backlog
+                                refinement and
+                                conducted document reviews.
+                            </p>
+                        </div>
+                        <div class="job-skills">
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>Test Case Authoring</li>
+                                <li>Compliance Testing (IEC, IMO,
+                                    IHO)</li>
+                                <li>Defect Tracking</li>
+                                <li>Technical Report Writing</li>
+                                <li>Performance Data Analysis</li>
+                                <li>Documentation Review</li>
+                            </ul>
+                        </div>
+                        <div class="job-tools">
+                            <h4>Tools:</h4>
+                            <ul>
+                                <li>Jira</li>
+                                <li>Confluence</li>
+                                <li>X-Ray</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="experience-separator">
+
+                    <div class="job-entry">
+                        <div class="job-header">
+                            <span class="job-company">Capgemini
+                                Engineering</span>
+                            <span class="job-dates">January 2021 -
+                                February
+                                2022</span>
+                        </div>
+                        <div class="job-title">Verification & Validation
+                            Test
+                            Engineer</div>
+                        <div class="job-responsibilities">
+                            <p>
+                                Responsible for the verification,
+                                validation,
+                                and type testing of the Aventra
+                                platform.
+                                Completing Test Reports, including
+                                raising,
+                                rectifying and advisement of defect
+                                reporting
+                                (TPRs) to identify fault trends.
+                                Conducting
+                                customer witness/compliance testing to
+                                specification. Devises test strategies,
+                                test
+                                designs and supports test process
+                                improvement
+                                and tool evaluations. Experienced in
+                                software
+                                interrogation and installation.
+                            </p>
+                            <p>
+                                Expert in reliability, regression,
+                                hardware, and
+                                software testing. Working alongside
+                                supplier
+                                engineering teams by providing technical
+                                feedback on software related defects.
+                                Collaborates with the customer and
+                                system
+                                engineers to ensure functional system
+                                integration, product improvement and
+                                reliability. Support the SDLC, based on
+                                the
+                                V-Model.
+                            </p>
+                        </div>
+                        <div class="job-skills">
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>System Integration</li>
+                                <li>Regression Testing</li>
+                                <li>Customer Demonstrations</li>
+                                <li>Technical Report Writing</li>
+                                <li>Data Logging & Analysis</li>
+                                <li>Software/Hardware Debugging</li>
+                            </ul>
+                        </div>
+                        <div class="job-tools">
+                            <h4>Tools:</h4>
+                            <ul>
+                                <li>NetDevice</li>
+                                <li>WinSCP</li>
+                                <li>Putty</li>
+                                <li>MitracMAP</li>
+                                <li>Hasler</li>
+                                <li>BrickCom</li>
+                                <li>CentreMediaConfig</li>
+                                <li>Colasoft</li>
+                                <li>WiFi Analyser</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="experience-separator">
+
+                    <div class="job-entry">
+                        <div class="job-header">
+                            <span class="job-company">British
+                                Army</span>
+                            <span class="job-dates">July 2011 - January
+                                2018</span>
+                        </div>
+                        <div class="job-title">Avionics Technician</div>
+                        <div class="job-responsibilities">
+                            <p>
+                                Responsible for the daily servicing of
+                                the
+                                Apache and Lynx Helicopters, through
+                                corrective
+                                and preventative maintenance. Conducting
+                                scheduled inspections on flight critical
+                                components, incorporate modifications,
+                                and
+                                perform fault diagnostics and
+                                rectifications.
+                                Experienced at both first line and depth
+                                maintenance, component strip and
+                                rebuild,
+                                quality control, system functional
+                                testing and
+                                spares demanding.
+                            </p>
+                            <p>
+                                System Boresighting | Weapons | Pitot &
+                                Static
+                                Systems | Power Management | Defensive
+                                Countermeasures | Target Acquisition and
+                                Designation Sighting System | Night
+                                Vision |
+                                Helmet mounted HUD | Engine Control |
+                                Lighting
+                                Systems | Doppler | Radar Altimeter |
+                                Flying
+                                Controls | Video Recording |
+                                Radio/Intercom |
+                                Radar | Class 4 Laser
+                            </p>
+                        </div>
+                        <div class="job-skills">
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>Fault Diagnosis & Rectification</li>
+                                <li>Preventative & Corrective
+                                    Maintenance</li>
+                                <li>System Boresighting</li>
+                                <li>Quality Control & Assurance</li>
+                                <li>Component Strip & Rebuild</li>
+                                <li>Functional Testing</li>
+                            </ul>
+                        </div>
+                        <div class="job-tools">
+                            <h4>Tools:</h4>
+                            <ul>
+                                <li>Multimeter</li>
+                                <li>Flexible Digital Cameras</li>
+                                <li>Boresight Equipment</li>
+                                <li>Hydraulic Test Sets</li>
+                                <li>Pitot-Static Testers</li>
+                                <li>Technical Manuals</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="section-separator">
+                </section>
+
+                <!-- ==========================
+                    Education Section
+                =========================== -->
+                <section id="education" style="display: none;">
+                    <h2>Education</h2>
+                    <div class="education-entry">
+                        <h5>BSc (Hons) Computer Science (In
+                            Progress)</h5>
+                        <ul>
+                            <li><h6>Expected Graduation: 2028</h6></li>
+                            <li><h6>- Aston University</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Diploma of Higher Education (HND)</h5>
+                        <ul>
+                            <li><h6>Graduation: 2022</h6></li>
+                            <li><h6>- The Open University</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Requirements Writing</h5>
+                        <ul>
+                            <li><h6>Graduation: 2022</h6></li>
+                            <li><h6>- University of New South Wales</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Certificate of Higher Education Engineering
+                            (HNC)</h5>
+                        <ul>
+                            <li><h6>Graduation: 2020</h6></li>
+                            <li><h6>- The Open University</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>IOSH Managing Safely</h5>
+                        <ul>
+                            <li><h6>Graduation: 2018</h6></li>
+                            <li><h6>- HSQE Ltd</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Level 3 Diploma in First Line
+                            Management</h5>
+                        <ul>
+                            <li><h6>Graduation: 2017</h6></li>
+                            <li><h6>- Chartered Management Institute
+                                    (CMI)</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Level 3 NVQ Extended Diploma in Aeronautical
+                            Engineering</h5>
+                        <ul>
+                            <li><h6>Graduation: 2016</h6></li>
+                            <li><h6>- EAL</h6></li>
+                        </ul>
+                    </div>
+                    <div class="education-entry">
+                        <h5>Level 3 Diploma in Engineering Technology</h5>
+                        <ul>
+                            <li><h6>Graduation: 2013</h6></li>
+                            <li><h6>- EAL</h6></li>
+                        </ul>
+                    </div>
+                    <hr class="section-separator">
+                </section>
+
+                <!-- ==========================
+                    Languages Section
+                =========================== -->
+                <section id="languages" style="display: none;">
+                    <h2>Programming Languages</h2>
+                    <h4>Experience Ratings!</h4>
+                    <br>
+                    <ul>
+                        <li><img
+                                src="Images/Icons/html_icon.png"
+                                alt="HTML Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 8px"><strong>HTML</strong>
+                            <span class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                        <br>
+                        <li><img
+                                src="Images/Icons/css_icon.png"
+                                alt="CSS Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 8px"><strong>CSS</strong><span
+                                class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                        <br>
+                        <li><img src="Images/Icons/js_icon.png"
+                                alt="JavaScript Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 8px"><strong>JavaScript</strong><span
+                                class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                        <br>
+                        <li><img src="Images/Icons/java_icon.png"
+                                alt="Java Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 4px;"><strong>Java</strong><span
+                                class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                        <br>
+                        <li><img src="Images/Icons/csharp_icon.png"
+                                alt="C# Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 8px"><strong>C#</strong><span
+                                class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                        <br>
+                        <li><img src="Images/Icons/processing_icon.png"
+                                alt="Processing Icon"
+                                style="width: 36px; height: 36px; vertical-align: top; margin-right: 8px"><strong>Processing</strong><span
+                                class="stars">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/full_star_icon.png"
+                                    alt="Full Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                                <img src="Images/Icons/empty_star_icon.png"
+                                    alt="Empty Star Icon" class="star">
+                            </span></li>
+                    </ul>
+                    <hr class="section-separator">
+                </section>
+
+                <!-- ==========================
+                    Skills Section
+                =========================== -->
+                <section id="skills" style="display: none;">
+                    <h2>Engineering Skills</h2>
+                    <h4>Leadership & People Management</h4>
+                    <p>Known for taking a logical and analytical
+                        approach to
+                        problems. Remains level-headed during high
+                        pressure
+                        situations. Utilises the teams' strengths to
+                        achieve
+                        objectives enjoys working at the lead of any job
+                        or
+                        tasking while frequently meets or exceeds
+                        objectives.</p>
+                    <h4>Technical</h4>
+                    <p>Experienced working with regulatory standards,
+                        engineering drawings, instructions, and wiring
+                        diagrams.
+                        Proficient in technical report writing,
+                        computerised
+                        maintenance management systems, preventative,
+                        scheduled
+                        and condition-based maintenance. Technical
+                        understanding
+                        of electrical, mechanical, hydraulic, and
+                        pneumatic
+                        systems.</p>
+                    <h4>Fault Finding</h4>
+                    <p>Detail orientated and methodical approach to
+                        electrical
+                        fault finding, problem-solving and electrical
+                        safety.
+                        Comprehensive development of electronic hand
+                        skills,
+                        installation and removal of electrical
+                        components and
+                        wiring looms. Extensive use of electrical
+                        schematics to
+                        identity electrical faults.</p>
+                    <h4>Inspection and Testing</h4>
+                    <p>Experienced in industry tools; Multisim, Ansys,
+                        Granta,
+                        Audacity, and tooling such as multi-meters,
+                        functional
+                        generators, ammeters, functional test equipment,
+                        boresight alignments, measurement equipment,
+                        flexible
+                        digital cameras, and various special purpose
+                        test
+                        equipment.</p>
+                    <hr class="section-separator">
+                </section>
+
+                <!-- ==========================
+                    Interests Section
+                =========================== -->
+                <section id="interests" style="display: none;">
+                    <h2>Interests</h2>
+                    <p>I am passionate about technology and enjoy
+                        building
+                        custom PCs, developing my home automation system
+                        and
+                        making games on the Unity Game Engine.</p>
+                    <p>I enjoy completing 1000 piece puzzles and
+                        spending time
+                        with
+                        my children.</p>
+                    <hr class="section-separator">
+                </section>
+
+                <!-- ==========================
+                    Testimonials Section
+                =========================== -->
+                <section id="testimonials" style="display: none;">
+                    <div class="testimonial">
+                        <h2>Testimonials</h2>
+                        <blockquote>
+                            <ul>
+                                <li>"A hard working and intelligent engineer who is a pleasure to work with."</li>
+                                <li>"Nathan is someone with a can do attitude and will always be on hand to help."</li>
+                                <li>"A person who strives to learn and become a subject matter expert in whatever he does."</li>
+                                <li>"Someone you can lean on as support with his knowledge."</li>
+                            </ul>
+                            <footer>
+                                - Luke Nolson
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <hr class="section-separator">
+                </section>
+            </main>
+
+            <!-- ==========================
+                Footer
+            =========================== -->
+            <footer>
+                <p>&copy; <em>2025 Nathan Francis. All rights
+                        reserved.</em></p>
+            </footer>
+        </div>
+    </body>
+</html>
