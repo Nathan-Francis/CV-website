@@ -1,0 +1,51 @@
+<!-- ==========================
+            CREDITS
+=========================== -->
+
+cv_icon.ico
+Created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/curriculum)
+
+linkedin_icon.png
+[LinkedIn Brand Downloads](https://brand.linkedin.com/downloads)
+
+home_icon.png
+Created by NajmunNahar - [Flaticon](https://www.flaticon.com/free-icons/home-button)
+
+contact_icon.png
+Created by hqrloveq - [Flaticon](https://www.flaticon.com/free-icons/email)
+
+portfolio_icon.png
+Created by vectorsmarket15 - [Flaticon](https://www.flaticon.com/free-icons/document)
+
+github_icon.png
+Created by Roundicons - [Flaticon](https://www.flaticon.com/free-icons/github)
+
+location_icon.png
+Created by hqrloveq - [Flaticon](https://www.flaticon.com/free-icons/place)
+
+project_icon.png
+Created by logisstudio - [Flaticon](https://www.flaticon.com/free-icons/deal)
+
+html_icon.png
+Created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/html)
+
+css_icon.png
+Created by Pixel perfect - [Flaticon](https://www.flaticon.com/free-icons/css)
+
+js_icon.png
+Created by Pixel perfect - [Flaticon](https://www.flaticon.com/free-icons/javascript)
+
+java_icon.png
+Created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/java)
+
+csharp_icon.png
+Created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/c-sharp)
+
+processing_icon.png
+[Processing Logo - SeekLogo](https://seeklogo.com/vector-logo/435002/processing)
+
+empty_star_icon.png
+Created by Pixel perfect - [Flaticon](https://www.flaticon.com/free-icons/star)
+
+full_star_icon.png
+Created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/star)
