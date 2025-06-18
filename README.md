@@ -37,4 +37,5 @@ See [credits.txt](credits.txt) for icon and asset attributions.
 
 ## License
 
-This project is for personal use. See individual asset licenses in [credits.txt](credits.txt).
+This project is for educational purposes only.  
+You may not use, copy, modify, or distribute this code for commercial purposes or personal gain without explicit permission from the author.
